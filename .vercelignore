@@ -1,0 +1,54 @@
+# Dependencies
+/node_modules
+/vendor
+
+# Testing
+/tests
+/phpunit.xml
+.phpunit.result.cache
+
+# Development
+/.git
+/.github
+/.idea
+/.vscode
+/.fleet
+.editorconfig
+.gitattributes
+.gitignore
+.env.example
+.env.testing
+
+# Build artifacts
+/public/hot
+/public/storage
+/storage/*.key
+
+# Cache and logs
+/bootstrap/cache/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+
+# Local development
+docker-compose.yml
+Dockerfile
+*.log
+*.sql
+*.sqlite
+.DS_Store
+Thumbs.db
+
+# Documentation
+/docs
+README.md
+CHANGELOG.md
+LICENSE.md
+
+# Development configuration
+.env.*
+!.env.production
+composer.lock
+package-lock.json
+yarn.lock
